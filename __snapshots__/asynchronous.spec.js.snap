@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Using redux-mock-store should dispatch correct actions when fetching todos 1`] = `
+Array [
+  Object {
+    "isFetching": true,
+    "type": "SET_FETCH",
+  },
+  Object {
+    "todos": Array [
+      "Walk dog",
+      "Learn redux",
+    ],
+    "type": "ADD_TODOS",
+  },
+  Object {
+    "isFetching": false,
+    "type": "SET_FETCH",
+  },
+]
+`;
+
+exports[`Without redux-mock-store should dispatch correct actions when fetching todos 1`] = `
+Array [
+  Array [
+    Object {
+      "isFetching": true,
+      "type": "SET_FETCH",
+    },
+  ],
+  Array [
+    Object {
+      "todos": Array [
+        "Walk dog",
+        "Learn redux",
+      ],
+      "type": "ADD_TODOS",
+    },
+  ],
+  Array [
+    Object {
+      "isFetching": false,
+      "type": "SET_FETCH",
+    },
+  ],
+]
+`;

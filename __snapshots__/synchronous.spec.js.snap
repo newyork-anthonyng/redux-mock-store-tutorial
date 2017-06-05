@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Using redux-mock-store should add todo 1`] = `
+Array [
+  Object {
+    "todo": "Feed dog",
+    "type": "ADD_TODO",
+  },
+]
+`;
+
+exports[`Without redux-mock-store should add todo 1`] = `
+Object {
+  "todo": "Feed dog",
+  "type": "ADD_TODO",
+}
+`;

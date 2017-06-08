@@ -9,3 +9,5 @@ npm install
 npm test
 ```
 
+## Outline
+This includes examples for synchronous and asynchronous actions, with and without using `redux-mock-store`.
